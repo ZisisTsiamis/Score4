@@ -12,7 +12,7 @@ Connect four με AI & βιβλιοθήκη raylib
   1)Κατεβάστε το:"precompiled Raylib για Windows"
   2)Προσθέστε τα ".lib" και ".dll" αρχεία στο project σας ή στο path του compiler
 Εγκατάσταση σε macOS
-  >>brew install raylib
+   brew install raylib
 
 Για την μεταγλώττιση μπορείτε:
     g++ main.cpp -o connect4 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
@@ -33,7 +33,7 @@ Connect four με AI & βιβλιοθήκη raylib
 
 
 Τι ειναί η  Raylib;
- >>Η raylib είναι μια απλή βιβλιοθήκη για τη δημιουργία παιχνιδιών και εφαρμογών με γραφικό περιβάλλον.
+   Η raylib είναι μια απλή βιβλιοθήκη για τη δημιουργία παιχνιδιών και εφαρμογών με γραφικό περιβάλλον.
    Είναι γραμμένη σε C αλλά χρησιμοποιείται άνετα με C++.Παρέχει υποστηρίξη για:
     2D & 3D γραφικά
     Χειρισμό ήχου
