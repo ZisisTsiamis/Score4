@@ -7,7 +7,7 @@ Connect four με AI & βιβλιοθήκη raylib
   2)"Raylib" (βιβλιοθήκη γραφικών παιχνιδιού)
 
 Εγκατάσταση της Raylib σε linux
-  >>"sudo apt install libraylib-dev"
+    "sudo apt install libraylib-dev"
 Εγκατάσταση σε Windows
   1)Κατεβάστε το:"precompiled Raylib για Windows"
   2)Προσθέστε τα ".lib" και ".dll" αρχεία στο project σας ή στο path του compiler
@@ -15,13 +15,13 @@ Connect four με AI & βιβλιοθήκη raylib
   >>brew install raylib
 
 Για την μεταγλώττιση μπορείτε:
-  >>g++ main.cpp -o connect4 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+    g++ main.cpp -o connect4 -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
   Σε windows,μπόρει να χρειαστεί να προσθέσετε:-lwinmm -lgdi32
 
 
 Για το τρέξιμο του παιχνιδίου
   Αφού κάνετε compile:
-  >>"./connect4"
+    "./connect4"
 
 
 Τρόπος παιχνιδιού
@@ -35,17 +35,17 @@ Connect four με AI & βιβλιοθήκη raylib
 Τι ειναί η  Raylib;
  >>Η raylib είναι μια απλή βιβλιοθήκη για τη δημιουργία παιχνιδιών και εφαρμογών με γραφικό περιβάλλον.
    Είναι γραμμένη σε C αλλά χρησιμοποιείται άνετα με C++.Παρέχει υποστηρίξη για:
-   *2D & 3D γραφικά
-   *Χειρισμό ήχου
-   *Είσοδο απο πληκτρολόγιο και ποντίκι
-   *Δυνατότητες για animation
+    2D & 3D γραφικά
+    Χειρισμό ήχου
+    Είσοδο απο πληκτρολόγιο και ποντίκι
+    Δυνατότητες για animation
 
 
 AI Λογική
- >>Η τεχνιτή νοημοσύνη χρησιμοποιεί:
-    *Mixmax αλγόριθμο για να μπορεί να προβλέπει κινήσεις
-    *Alpha-Beta Pruning για να επιταχύνει την αναζήτηση
-    *Αξιολόγηση του πίνακα για εντοπισμό θέσεων
+ Η τεχνιτή νοημοσύνη χρησιμοποιεί:
+    Mixmax αλγόριθμο για να μπορεί να προβλέπει κινήσεις
+    Alpha-Beta Pruning για να επιταχύνει την αναζήτηση
+    Αξιολόγηση του πίνακα για εντοπισμό θέσεων
 
  Screenshot-Demo game
   ![image](https://github.com/user-attachments/assets/4c891eca-ff4c-4c61-a05c-b58f6fff66de)
